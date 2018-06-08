@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <td>Name</td>
+      <td>Age</td>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- <tr *ngFor="let ch of characters">
+      <td>{{ch.id}}</td>
+      <td>{{ch.name}}</td>
+      <td>{{ch.age}}</td>
+    </tr> -->
+    <ng2-smart-table 
+    [settings]="settings" 
+    [source]="characters">
+    </ng2-smart-table>
+  </tbody>
+</table>
